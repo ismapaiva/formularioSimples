@@ -1,0 +1,50 @@
+.secaoFormulario{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 1rem 2rem;
+    margin: 1rem 15vw;
+    align-items: center;
+}
+form {
+    margin: 20px;
+    border-radius: 5px;
+    width: 40vw;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 90%;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resultado {
+    margin: 1rem 15vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#grupoIdades {
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style:none;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section class="secaoFormulario">
+        <h2 class="tituloPrincipal">Cadastro de pessoas</h2>
+        <form id="cadastroForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+    
+            <label for="dataNascimento">Data de Nascimento:</label>
+            <input type="date" id="dataNascimento" name="dataNascimento" required>
+    
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <div id="resultado">
+        <h2>Pessoas cadastradas</h2>
+        <div id="grupoIdades">
+            <div id="divMaiores">
+                <h2>Maiores de idade:</h2>
+                <ul id="listaPessoasMaiores"></ul>
+            </div>
+            <div id="divMenores">
+                <h2>Menores de idade:</h2>
+                <ul id="listaPessoasMenores"></ul>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="/pessoa.js"></script>
+</body>
+</html>
